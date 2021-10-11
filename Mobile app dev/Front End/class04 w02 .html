@@ -7,7 +7,7 @@
     <title>Admission Form</title>
 </head>
 <body>
-    
+<form>    
         <!-- ========= Header of form  ========= -->
     
     <div id="header">
@@ -38,8 +38,45 @@
                     <input style="margin: 5px 90px;" type="email" id="student-email" name="student-email" placeholder="EMAIL: "><br><br>
                 
             </form>
-       
       </div>
-
+          <hr>
+           <!------------- Residential Information of students      ------------->
+         <div id="residential_form">
+          <h1>Residential Information</h1>
+             <div id="residential_information">
+                    <label for="student_city">CITY NAME : </label>
+                      <input type="text" id="student_city" name="student_city" placeholder="city name" required><br><br>
+                 <div id="provinance">
+                   <label for="provinance">PROVINANCE:</label>
+                      <select id="student_provinance">
+                        <option value="punjab" selected>punjab</option>
+                        <option value="sindh">sindh</option>
+                        <option value="kpk">KPK</option>
+                        <option value="Blochastan">Blochastan</option>
+                      </select>
+                 </div>
+                 <br>
+                 <div id="country">
+                    <label for="provinance">COUNTRY:</label>
+                    <select id="student_provinance">
+                      <option value="punjab" selected>USA</option>
+                      <option value="sindh">AFGANSTAN</option>
+                      <option value="kpk">CANADA</option>
+                      <option value="Blochastan">ITLY</option>
+                    </select>
+                 </div>
+                 <div id="gender">
+                    <h4> GENDER : </h4>
+                    <input type="radio"> 
+                     <label for="male">Male</label>
+                   <input type="radio"> 
+                     <label for="female">female</label>
+                   <input type="radio"> 
+                   <label for="other">other</label>                      
+                 </div>
+              </div>
+           </div>
+                      <hr>
+</form>
 </body>
 </html>
